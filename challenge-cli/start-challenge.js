@@ -42,13 +42,13 @@ function startChallenge(problemName, projectName) {
 
   // Create solution directory
   let solutionPath = path.join(problemPath, "solutions", finalProjectName);
-  
+
   // If solution directory exists, add a number suffix
   if (fs.existsSync(solutionPath)) {
     const nextNumber = getNextSolutionNumber(solutionPath);
     solutionPath = `${solutionPath}-${nextNumber}`;
   }
-  
+
   fs.mkdirSync(solutionPath, { recursive: true });
 
   // Copy starter to solution directory
@@ -57,13 +57,13 @@ function startChallenge(problemName, projectName) {
   // Change directory
   process.chdir(solutionPath);
 
-  // Run npm install
+  // Run bun install
   try {
-    execSync("npm install --loglevel=silent --logs-max=0", {
+    execSync("bun install --loglevel=silent --logs-max=0", {
       stdio: "inherit",
     });
   } catch (error) {
-    console.error("Error running npm install:", error.message);
+    console.error("Error running bun install:", error.message);
   }
 
   return solutionPath;

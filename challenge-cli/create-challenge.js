@@ -49,7 +49,7 @@ function createChallenge(projectName, projectPath = "problems") {
   replaceInFiles(fullPath, "Example Challenge", challengeName, "README.md");
 
   process.chdir(`${fullPath}/solutions/react-ts`);
-  execSync("npm install --loglevel=silent --logs-max=0");
+  execSync("bun install --loglevel=silent --logs-max=0");
 
   console.log(
     `Project '${projectName}' created successfully at '${fullPath}'.`
