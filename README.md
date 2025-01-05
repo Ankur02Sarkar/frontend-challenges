@@ -1,9 +1,10 @@
 # Frontend Challenges
 
-**This repository features frontend and JavaScript challenges designed to help developers enhance their problem-solving skills and build performant, accessible UIs.  
-You can also [visit the app](https://dub.sh/frontwizards).**
+This repository features frontend and JavaScript challenges designed to help developers enhance their problem-solving skills and build performant, accessible UIs.
 
-<img width="1000" heigh="1000" alt="Screenshot 2024-12-28 at 03 45 33" src="https://github.com/user-attachments/assets/094dec85-df71-4aae-8c33-3b11ab46e72c" />
+You can also use [The Frontend Wizards App](https://dub.sh/frontwizards).
+
+<img width="1000" heigh="1000" alt="Screenshot 2024-12-28 at 03 45 33" src="https://github.com/user-attachments/assets/094dec85-df71-4aae-8c33-3b11ab46e72c" style="margin-bottom:2rem"/>
 
 Each UI challenge has:
 
@@ -20,10 +21,10 @@ Each UI challenge has:
     - [Utility functions problems](#utility-functions-problems)
   - [Use Cases](#use-cases)
   - [Getting Started](#getting-started)
-  - [How to Check if Your Solution (UI) Is Accessible](#how-to-check-if-your-solution-ui-is-accessible)
+  - [How to Review Your Solution](#how-to-review-your-solution)
   - [How to Contribute](#how-to-contribute)
     - [TODOs](#todos)
-  - [How To Add Your Solution](#how-to-add-your-solution)
+  - [How To Share Your Solution](#how-to-share-your-solution)
   - [How To Add New Problem](#how-to-add-new-problem)
   - [Coding Standards](#coding-standards)
 
@@ -33,14 +34,14 @@ Each UI challenge has:
 
 <p align="center">
 
-| Title                                                                                            | Difficulty | Completed | Accessible | Reviewed | Solution                                                 |
-| ------------------------------------------------------------------------------------------------ | ---------- | --------- | ---------- | -------- | -------------------------------------------------------- |
-| [Traffic light](https://frontendpractice.hmellahi.me/challenge/user-interface/traffic-light)     | Easy       | ✅        | ✅         | ✅       | [Solution](/problems/traffic-light/solutions/react-ts)   |
-| [File Tree](https://frontendpractice.hmellahi.me/challenge/user-interface/file-tree)             | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/file-tree/solutions/react-ts)       |
-| [Twitter like](https://frontendpractice.hmellahi.me/challenge/user-interface/twitter-like)       | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/twitter-like/solutions/react-ts)    |
-| [Twitter like II](https://frontendpractice.hmellahi.me/challenge/user-interface/twitter-like-II) | Medium     | -         | -          | -        | [Solution](/problems/twitter-like-II/solutions/react-ts) |
-| [Whack a Mole](https://frontendpractice.hmellahi.me/challenge/user-interface/whack-a-mole)       | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/whack-a-mole/solutions/react-ts)    |
-| [Wordle Game](https://frontendpractice.hmellahi.me/challenge/user-interface/wordle-game)         | Hard       | ✅        | ✅         | ✅       | [Solution](/problems/wordle-game/solutions/react-ts)     |
+| Title                                                                                | Difficulty | Completed | Accessible | Reviewed | Solution                                                 |
+| ------------------------------------------------------------------------------------ | ---------- | --------- | ---------- | -------- | -------------------------------------------------------- |
+| [Traffic light](https://frontwizards.com/challenge/user-interface/traffic-light)     | Easy       | ✅        | ✅         | ✅       | [Solution](/problems/traffic-light/solutions/react-ts)   |
+| [File Tree](https://frontwizards.com/challenge/user-interface/file-tree)             | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/file-tree/solutions/react-ts)       |
+| [Twitter like](https://frontwizards.com/challenge/user-interface/twitter-like)       | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/twitter-like/solutions/react-ts)    |
+| [Twitter like II](https://frontwizards.com/challenge/user-interface/twitter-like-II) | Medium     | -         | -          | -        | [Solution](/problems/twitter-like-II/solutions/react-ts) |
+| [Whack a Mole](https://frontwizards.com/challenge/user-interface/whack-a-mole)       | Medium     | ✅        | ✅         | ✅       | [Solution](/problems/whack-a-mole/solutions/react-ts)    |
+| [Wordle Game](https://frontwizards.com/challenge/user-interface/wordle-game)         | Hard       | ✅        | ✅         | ✅       | [Solution](/problems/wordle-game/solutions/react-ts)     |
 
 </p>
 
@@ -50,13 +51,17 @@ Each UI challenge has:
 
 | Title                                                                                                                               | Difficulty | Topic                       |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------- |
+| [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/description/)                               | Easy       | Basic Functions             |
+| [Counter](https://leetcode.com/problems/counter/description/)                                                                       | Easy       | Basic Functions             |
 | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/description/)                                                 | Easy       | Closures                    |
+| [Counter II](https://leetcode.com/problems/counter-ii/description/)                                                                 | Easy       | Closures                    |
+| [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/) | Easy       | Basic Array Transformations |
+| [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/description/)                                 | Easy       | Basic Array Transformations |
 | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/description/)                               | Easy       | Basic Array Transformations |
 | [Function Composition](https://leetcode.com/problems/function-composition/description/)                                             | Easy       | Function Transformations    |
 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/description/)                   | Easy       | Function Transformations    |
 | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/description/)                                       | Easy       | Function Transformations    |
 | [Memoize](https://leetcode.com/problems/memoize/description/)                                                                       | Medium     | Function Transformations    |
-| [Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/description/)                       | Easy       | Classes                     |
 | [Add Two Promises](https://leetcode.com/problems/add-two-promises/description/)                                                     | Easy       | Promises and Time           |
 | [Sleep](https://leetcode.com/problems/sleep/description/)                                                                           | Easy       | Promises and Time           |
 | [Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation/description/)                                             | Easy       | Promises and Time           |
@@ -73,6 +78,7 @@ Each UI challenge has:
 | [Join Two Arrays by ID](https://leetcode.com/problems/join-two-arrays-by-id/description/)                                           | Medium     | JSON                        |
 | [Flatten Deeply Nested Array](https://leetcode.com/problems/flatten-deeply-nested-array/description/)                               | Medium     | JSON                        |
 | [Compact Object](https://leetcode.com/problems/compact-object/description/)                                                         | Medium     | JSON                        |
+| [Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/description/)                       | Easy       | Classes                     |
 
 </p>
 
@@ -118,20 +124,28 @@ npm run dev
 > [!NOTE]
 > The starter template includes React and necessary tooling to get you started quickly.
 
-## How to Check if Your Solution (UI) Is Accessible
+## How to Review Your Solution
 
-You can use automated accessibility checkers like **axe-core** to detect most accessibility issues.
+- Use automated accessibility checkers like [axe-core](https://larsmagnus.co/blog/how-to-test-for-accessibility-with-axe-core-in-next-js-and-react) to detect most accessibility issues.
 
-For more information, check out [this article](https://larsmagnus.co/blog/how-to-test-for-accessibility-with-axe-core-in-next-js-and-react).
-
-Also :
-
-- Test your app with a keyboard to ensure full keyboard navigation
-- Add ARIA labels to make your app understandable by screen readers
-- Use [Claude](https://claude.ai/new) for a final accessibility check
-
-> [!NOTE]  
+> [!NOTE]
 > axe-core is already included in the starter template.
+
+- Test your app with keyboard to ensure full keyboard navigation (if applicable).
+- Add ARIA labels to make your app understandable by screen readers.
+- Use [Claude](https://claude.ai/new) for a final accessibility & quality check.
+
+  **Example Prompt for Claude:**
+
+  ```text
+  Can you review my code for accessibility and best practices? Please:
+
+  - Point out critical issues that must be fixed (if any)
+  - Rate the overall implementation (e.g., production-ready, needs work, etc.)
+
+  Here's my code:
+  [your code]
+  ```
 
 ## How to Contribute
 
@@ -143,17 +157,19 @@ Also :
 ### TODOs:
 
 - [ ] Configure axe-core to ignore minor accessibility warnings (e.g., missing a level-one heading) in the reportAccessibility function.
+- [ ] Add a screenshot img of each problem in the README, could be automated?
 - [ ] Set up GitHub Actions for pull requests to:
   - Validate solutions can be built successfully
   - Accessibility check
 - [ ] Extend the CI pipeline for the main branch too
+- [ ] Add resources for learning key concepts related to the problem
 
-## How To Add Your Solution
+## How To Share Your Solution
 
 > [!NOTE]
-> Please add your solution only if you think it's a good solution that others can learn from.
+> Share your solution only if you believe it's good and others can learn from it.
 
-To add your solution follow the process for [making a pull request to an open-source project](https://github.com/gabrieldemarmiesse/getting_started_open_source).
+To share your solution follow the process for [making a pull request to an open-source project](https://github.com/gabrieldemarmiesse/getting_started_open_source).
 
 In short:
 
@@ -182,5 +198,9 @@ npm run dev
 
 Please adhere to the following coding standards when submitting solutions:
 
-- Ensure your app is accessible. Refer to the [Accessibility Guidelines](#how-to-check-if-your-solution-ui-is-accessible) for more details.
+- Ensure your app is accessible and follows best practices. Refer to the [How to Review Your Solution](#how-to-review-your-solution) for more details.
 - Format your code.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. This license grants permission to individuals to use this software for both personal and commercial purposes, while providing liability protection for the authors.
